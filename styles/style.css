@@ -281,6 +281,8 @@
 
 .footer{
     min-height: 350px;
+    display: flex;
+    flex-direction: column;
     background-color: #1f1f1f;
     color: white;
     margin: 0;
@@ -290,7 +292,7 @@
 
 .footer__columns{
     width: 90%;
-    min-height: 350px;
+    flex: 1;
     margin: auto;
     padding: 0;
     display: flex;
