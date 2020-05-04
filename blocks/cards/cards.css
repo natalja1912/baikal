@@ -6,6 +6,8 @@
 .cards{
     width: 920px;
     margin: auto;
+    padding: 0;
+    list-style: none;
     display: flex;
     flex-wrap: wrap;
     font-size: 0;

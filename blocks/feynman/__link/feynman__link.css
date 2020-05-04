@@ -10,3 +10,7 @@
   font-weight: normal;
 }
 
+.feynman__link:hover {
+  opacity: 0.4;
+  transition: opacity 0.4s linear;
+ }
