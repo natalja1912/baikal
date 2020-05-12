@@ -1,0 +1,11 @@
+.header__square {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 0; 
+    width: 450px;
+    border-bottom: 500px solid steelblue;
+    border-right: 200px solid transparent;
+    z-index: 2;
+  
+}

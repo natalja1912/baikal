@@ -1,0 +1,7 @@
+.header__cover {
+    width: 70%;
+    object-fit: cover;
+    position: relative;
+  
+    z-index: 1;
+}
