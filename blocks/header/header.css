@@ -1,6 +1,6 @@
-@import url(./title/header-title.css);
-@import url(./cover/header-cover.css);
-@import url(./square/header-square.css);
+@import url(title/header-title.css);
+@import url(cover/header-cover.css);
+@import url(square/header-square.css);
 
 
 .header {
