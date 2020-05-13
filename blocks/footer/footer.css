@@ -1,7 +1,6 @@
-@import url(./__author/footer__author.css);
-@import url(./__columns/footer__columns.css);
-@import url(./__column-heading/footer__column-heading.css);
-@import url(./__column/footer__column.css);
+@import url(./author/footer-author.css);
+@import url(./columns/footer-columns.css);
+@import url(./column/footer-column.css);
 
 
 .footer{

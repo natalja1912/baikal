@@ -1,0 +1,8 @@
+.two-columns-paragragh {
+    margin-bottom: 30px;
+}
+
+.two-columns-paragragh:last-child{
+    margin-bottom: 0;
+}
+
