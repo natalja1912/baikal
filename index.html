@@ -8,13 +8,22 @@
 </head>
 <body>
     <div class="page">
-        <header class="header">
+        <header class="menu">
+            <img class="menu-logo" src="images/logo.jpg" alt="логотип Байкал">
+            <ul class="menu-links">
+                <li class="menu-link"><img class="menu-icon" src="images/arrow.jpg"><a href="#digits" >Цифры и факты</a></li>
+                <li class="menu-link"><img class="menu-icon" src="images/arrow.jpg"><a href="#nature" class="menu-link">Природа</a></li>
+                <li class="menu-link"><img class="menu-icon" src="images/arrow.jpg"><a href="#video" class="menu-link">Видео</a></li>
+                
+            </ul>
+        </header>
+        <section class="header">
             <h1 class="header-title">Байкал. <br> Чудо Сибирской природы</h1>
             <div class="header-square"></div>
             <img class="header-cover" src="images/cover.jpg" alt="фото Байкал">
-        </header>
+        </section>
         <main class="content">
-            <section class="techniques">
+            <section class="techniques" id="digits">
                 <h2 class="section-title">
                     Цифры и факты</h2> 
                 <ul class="cards">
@@ -35,7 +44,7 @@
                         </li>
                 </ul>
             </section>
-            <section class="photo-grid">
+            <section class="photo-grid" id="nature">
                 <img src="./images/1.jpg" alt="" class="photo-grid-item">
                 <img src="./images/2.jpg" alt="" class="photo-grid-item">
                 <img src="./images/3.jpg" alt="" class="photo-grid-item">
@@ -43,7 +52,7 @@
                 <img src="./images/5.jpg" alt="" class="photo-grid-item">
                 <img src="./images/6.jpg" alt="" class="photo-grid-item">
             </section>
-            <section class="description">
+            <section class="description" >
                 <div class="two-columns">
                     <h2 class="two-columns-brief">Растительный и животный мир Байкала</h2>
                     <ul class="two-columns-main-text">
@@ -53,7 +62,7 @@
                             </ul>
                 </div>
             </section>
-            <section class="video">
+            <section class="video" id="video">
                 <h2 class="section-title">
                     Видео о Байкале</h2> 
                 <div class="video-iframes">

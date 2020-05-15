@@ -1,0 +1,14 @@
+.menu-link{
+    margin-right: 15px;
+    font-size: 18px;
+    font-style: normal;
+    text-decoration: none;
+    color: black;
+    opacity: 1;
+
+}
+
+.menu-link:hover{
+    opacity: 0.5;
+    transition: opacity 1s;
+}

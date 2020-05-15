@@ -1,0 +1,16 @@
+@import url(../blocks/menu/menu-logo.css);
+@import url(../blocks/menu/menu-links.css);
+@import url(../blocks/menu/menu-link.css);
+@import url(../blocks/menu/menu-icon.css);
+
+.menu {
+    padding: 10px 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
